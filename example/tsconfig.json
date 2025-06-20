@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-mlkit-translate": ["../src/index"],
+      "expo-mlkit-translate/*": ["../src/*"]
+    }
+  }
+}
