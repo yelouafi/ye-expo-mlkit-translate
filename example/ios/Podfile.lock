@@ -38,7 +38,7 @@ PODS:
     - ExpoModulesCore
   - ExpoKeepAwake (14.1.4):
     - ExpoModulesCore
-  - ExpoMlkitTranslate (0.1.0):
+  - ExpoMlkitTranslate (0.1.1):
     - ExpoModulesCore
     - GoogleMLKit/Translate (~> 8.0.0)
   - ExpoModulesCore (2.4.0):
@@ -2035,7 +2035,7 @@ SPEC CHECKSUMS:
   ExpoFileSystem: c36eb8155eb2381c83dda7dc210e3eec332368b6
   ExpoFont: abbb91a911eb961652c2b0a22eef801860425ed6
   ExpoKeepAwake: bf0811570c8da182bfb879169437d4de298376e7
-  ExpoMlkitTranslate: 54abe1de5871117901ac8493bffe2811b8c41085
+  ExpoMlkitTranslate: 09a9ba263db8f8a2dcbbf5721a2ad617e3900cae
   ExpoModulesCore: d431ffe83c8673d02cb38425594a5f5480fd3061
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 15c28682af535aa55b9b31e64deff54b7ed7d453
@@ -2118,6 +2118,6 @@ SPEC CHECKSUMS:
   SSZipArchive: 8a6ee5677c8e304bebc109e39cf0da91ccef22ea
   Yoga: a6cb833e04fb8c59a012b49fb1d040fcb0cbb633
 
-PODFILE CHECKSUM: 65b7ffea12049c31121500002d08c3ed5efb4748
+PODFILE CHECKSUM: eb853e2a9aba289bccb11fdad2cdf46b0f653e63
 
 COCOAPODS: 1.16.2
