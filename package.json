@@ -1,5 +1,5 @@
 {
-  "name": "expo-mlkit-translate",
+  "name": "ye-expo-mlkit-translate",
   "version": "0.1.0",
   "description": "Expo translate text using mlkit",
   "main": "build/index.js",

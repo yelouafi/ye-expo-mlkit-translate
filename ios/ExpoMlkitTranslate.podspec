@@ -10,15 +10,13 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.platforms      = {
-    :ios => '15.1',
-    :tvos => '15.1'
-  }
+  s.platforms      = { :ios => '18.0', :tvos => '18.0' }
   s.swift_version  = '5.4'
-  s.source         = { git: 'https://github.com/yelouafi/ye-expo-mlkit-translate/expo-mlkit-translate' }
+  s.source         = { git: 'https://github.com/yelouafi/ye-expo-mlkit-translate' }
   s.static_framework = true
 
   s.dependency 'ExpoModulesCore'
+  s.dependency 'GoogleMLKit/Translate', '~> 8.0.0'
 
   # Swift/Objective-C compatibility
   s.pod_target_xcconfig = {
